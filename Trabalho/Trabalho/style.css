@@ -1,0 +1,82 @@
+* {      /* "box-sizing reset"  usada para garantir que o modelo de caixa (box model) seja consistente em todos os elementos da página */ 
+
+    box-sizing: border-box;   /* Propriedade usada para controlar o modelo de caixa (box model) dos elementos HTML */
+
+    margin: 0;  /*usada para controlar o espaçamento ao redor de um elemento. */
+
+    padding: 0; /*  serve para definir o espaçamento entre o conteúdo de um elemento e sua borda. Ele cria um espaço interno, afetando o layout dentro do elemento, mas não altera seu tamanho externo. */
+
+    list-style: none;
+}
+
+
+body {    
+    background-image: url(fotos/img-princ.png);
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+header {
+   
+    border: 2px solid rgb(0, 162, 255);
+    padding: 25px;
+    box-shadow: 0px 0px 3px  rgb(228, 255, 228);
+    background: rgb(24,49,101);
+    border-radius: 8px;
+}
+
+ul {
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+li {
+    border: 2px solid cyan;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 0px 0px 10px cyan;
+    border-radius: 10px;
+    
+}
+
+ul li:hover {
+    background: rgb(5, 5, 104);
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px white;
+  
+    
+}
+
+
+li a {
+    text-decoration: none;
+    
+    
+}
+ul li a:hover {
+    color: white;
+ }
+
+.proposta {
+    border: 2px solid cyan; /* Borda preta de 1 pixel */
+    padding: 10px; /* Espaçamento interno de 10 pixels */
+    width: 300px; /* Largura da caixa */
+    background: rgb(0, 68, 255);
+    box-shadow: 1px 1px 10px rgb(24,49,101);
+    margin-left: 5px;
+    margin: 10px;
+    color: rgb(4, 245, 36);
+    font-size: x-large;
+
+}
+
+.proposta:hover {
+    -xpedu-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+
+
